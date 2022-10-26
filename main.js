@@ -32,7 +32,7 @@ function nomeCognome() {
     let randomName = Math.floor(Math.random() * names.length);
     let randomSurname = Math.floor(Math.random() * surnames.length);
 
-    console.log(`${randomName, names[randomName]} ${randomSurname, surnames[randomSurname]}`);
+    console.log(`${names[randomName]} ${surnames[randomSurname]}`);
 }
 
 
